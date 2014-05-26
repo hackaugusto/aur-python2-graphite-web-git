@@ -38,10 +38,10 @@ source=('graphite::git+https://github.com/graphite-project/graphite-web.git'
 md5sums=('SKIP'
          '75e25c82d44888e2b76ed60a96c3c4fa'
          '7833f8d6acb209bd7de7692aabeb0f5f'
-         '92eca15d6c8ff4ee1e051a7188401bc4'
-         '16b34823edbba107fc5267b59f2f8dfe'
+         '9afb0197f417d8867cfd8565202d75b9'
+         'c922407af21607c4893a73aaf94e2ac2'
          '7ce24cd82e299b93e4c0d6cc811afd1f'
-         '2f6db163ae8cd9fdb57f6b5d634bac6c')
+         '2f6db163ae8cd9fdb57f6b5d634bac6c') 
 install=graphite.install
 
 pkgver() {
