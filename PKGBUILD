@@ -1,7 +1,7 @@
 # Maintainer: Augusto F. Hack <hack.augusto@gmail.com>
 pkgname=python2-graphite-web-git
 pkgver=0.9.12
-pkgrel=1
+pkgrel=2
 pkgdesc="A highly scalable real-time graphing system"
 arch=('x86_64')
 url="https://github.com/graphite-project/graphite-web"
