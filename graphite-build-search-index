@@ -1,0 +1,9 @@
+set -e
+
+INDEX_FILE="/var/lib/graphite/index"
+WHISPER_DIR="/var/lib/carbon/whisper"
+
+find -L ${WHISPER_DIR} -name '*.wsp' | sed \
+    -e 's@\.wsp$@@' \
+    -e 's@^\./@@' \
+    -e 's@/@.@g' > ${INDEX_FILE}

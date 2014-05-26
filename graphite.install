@@ -1,0 +1,13 @@
+post_install() {
+    echo 'creating graphite database'
+    /usr/bin/graphite-manage.py syncdb --noinput
+    echo 'generating graphite index'
+    /usr/bin/build-index
+}
+
+post_upgrade() {
+    echo 'creating graphite database'
+    /usr/bin/graphite-manage.py syncdb --noinput
+    echo 'generating graphite index'
+    /usr/bin/build-index
+}
